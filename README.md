@@ -10,7 +10,7 @@ Aplicación fullstack de gestión de servicios, desarrollada con:
 ## 🔧 Requisitos
 
 - Node.js (v18+)
-- PostgreSQL
+- PostgreSQL (Con base de datos llamada         servicios_db)
 
 ---
 
@@ -22,3 +22,11 @@ Aplicación fullstack de gestión de servicios, desarrollada con:
 cd prueba_backend
 npm install
 npm run start:dev
+
+### Variable de entornos necesarias (.env)
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=nestuser
+DB_PASSWORD=password
+DB_NAME=servicios_db
